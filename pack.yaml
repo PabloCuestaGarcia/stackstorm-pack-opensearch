@@ -1,0 +1,12 @@
+---
+ref: opensearch
+name: opensearch
+description: st2 opensearch integration pack
+keywords:
+  - opensearch
+  - databases
+python_versions:
+  - "3"
+verions: 0.0.1
+author: Pablo de la Cuesta
+email: pablo.delacuesta@outlook.com
