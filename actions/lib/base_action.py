@@ -1,7 +1,7 @@
 
 import sys
 import opensearchpy
-from st2common.runners.base_Action import Action
+from st2common.runners.base_action import Action
 
 
 class OSBaseAction(Action):
