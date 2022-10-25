@@ -1,6 +1,6 @@
 
 
-from actions.lib.base_action import OSBaseAction
+from lib.base_action import OSBaseAction
 
 
 class CreateIndex(OSBaseAction):
