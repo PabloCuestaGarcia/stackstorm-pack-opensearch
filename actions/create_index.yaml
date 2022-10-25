@@ -1,0 +1,16 @@
+---
+name: index_creation
+description: Action to create an index
+enabled: true
+entry_point: create_index.py
+parameters:
+  index_name:
+    type: string
+    description: Name of the index
+    required: true
+    position: 1
+  config:
+    type: object
+    description: Configuration to connect to opensearch
+    required: true
+    position: 0
