@@ -3,6 +3,7 @@ name: index_creation
 description: Action to create an index
 enabled: true
 entry_point: create_index.py
+runner_type: python-script
 parameters:
   index_name:
     type: string
