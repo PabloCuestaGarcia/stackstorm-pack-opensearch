@@ -14,8 +14,8 @@ class OSBaseAction(Action):
             return opensearchpy.OpenSearch(
                 hosts=[{'host': config['host'], 'port': config['port']}],
                 http_compress = True,
-                auth = config['auth'],
-                use_ssl = config['use_ssl'],
+                auth = tuple(config['auth']),
+                use_ssl = False,
                 verify_certs = False,
                 ssl_asser_hostname = False,
                 ssl_show_warn = False
