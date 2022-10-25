@@ -7,6 +7,6 @@ keywords:
   - databases
 python_versions:
   - "3"
-verion: 0.0.1
+version: 0.0.1
 author: Pablo de la Cuesta
 email: pablo.delacuesta@outlook.com
