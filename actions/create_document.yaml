@@ -1,0 +1,21 @@
+---
+name: document_creation
+description: Action to create a document
+enabled: true
+entry_point: create_document.py
+runner_type: python-script
+parameters:
+  index_name:
+    type: string
+    description: Name of the index
+    required: true
+    position: 1
+  config:
+    type: object
+    description: Configuration to connect to opensearch
+    required: true
+    position: 0
+  document:
+    type: object
+    required: true
+    position: 2
